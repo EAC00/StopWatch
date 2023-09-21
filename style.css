@@ -1,0 +1,58 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: black;
+  color: gold;
+  text-shadow: 2px 2px 2px black;
+}
+
+button {
+  background-color: gold;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 2px 4px;
+}
+
+.wrapper {
+  position: fixed;
+  top: 25%;
+  left: 35%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: center;
+
+  border: 3px ridge black;
+  border-radius: 1rem;
+  width: 30%;
+  background-color: white;
+
+
+}
+
+.displayTime {
+  margin: 15px;
+}
+
+
+#bgimg {
+  text-align: center;
+  margin-top: 1%;
+  position: relative;
+  height: 500px;
+}
+
+#bg {
+  width: 3000px;
+  height: 3000px;
+}
